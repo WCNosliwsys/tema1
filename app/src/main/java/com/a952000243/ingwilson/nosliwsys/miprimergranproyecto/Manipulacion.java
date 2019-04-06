@@ -30,4 +30,7 @@ public class Manipulacion extends AppCompatActivity {
             }
         });
     }
+    public void ocultar(View view){
+        btnejecutar.setVisibility(View.GONE);
+    }
 }

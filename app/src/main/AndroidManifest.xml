@@ -26,7 +26,8 @@
             android:name=".AcercaDe"
             android:label="Acerca de ..."
             android:theme="@android:style/Theme.Dialog" />
-        <activity android:name=".Manipulacion"></activity>
+        <activity android:name=".Manipulacion" />
+        <activity android:name=".MiRecyclerView"></activity>
     </application>
 
 </manifest>

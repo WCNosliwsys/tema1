@@ -31,6 +31,12 @@ public class Activity3 extends AppCompatActivity {
     public void AcercaDe(View view){
         startActivity(new Intent(this, AcercaDe.class));
     }
+    public void mirecyclerview(View view){
+        startActivity(new Intent(this, MiRecyclerView.class));
+    }
+    public void finish(View view){
+        finish();
+    }
 
     @Override protected void onStart() {
         super.onStart();
